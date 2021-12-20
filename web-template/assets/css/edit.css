@@ -1,0 +1,19 @@
+#page-wrapper{
+    background: rgb(0, 0, 0);
+}
+
+#box-1-container .content{
+    background: rgba(8,10,9,255);
+}
+
+#box-1-container .image{
+    transform: scaleX(-1);
+}
+
+#box-1-container span{
+    color: rgba(200,30,34,255);
+}
+
+.box-2-container .image{
+    transform: scaleX(-1);
+}
