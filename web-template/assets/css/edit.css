@@ -2,18 +2,71 @@
     background: rgb(0, 0, 0);
 }
 
-#box-1-container .content{
+#intro-container .content{
     background: rgba(8,10,9,255);
 }
 
-#box-1-container .image{
+#intro-container .image{
     transform: scaleX(-1);
 }
 
-#box-1-container span{
-    color: rgba(200,30,34,255);
+#intro-container span{
+    color: rgba(117,138,226,255);
 }
 
-.box-2-container .image{
+#intro-container p{
+    color: rgb(255, 255, 255);
+}
+
+#skills-main-container, #skills-sec-container{
+    background: black;
+}
+
+#skills-main-container h2{
+    color:rgba(117,138,226,255);
+}
+
+#skills-sec-container p{
+    color: rgb(255, 255, 255);
+}
+
+#projects-box .image{
+    /* filter: brightness(50%); */
+}
+
+#projects-box p{
+    color: rgb(255, 255, 255);
+}
+
+#quotes-box{
+    background: rgb(0, 0, 0);
+}
+
+#quotes-box h2{
+    margin-bottom: 40px;
+}
+
+.about-me-container .image{
     transform: scaleX(-1);
+}
+
+.about-me-container p{
+    color: white;
+}
+
+.about-me-container p strong{
+    color:rgba(117,138,226,255);
+}
+
+
+#contact-box{
+    background: black;
+}
+
+#contact-box li a{
+    color: rgb(255, 255, 255);
+}
+
+#contact-box li a:hover{
+    color:rgba(117,138,226,255);
 }
